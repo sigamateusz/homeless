@@ -1,0 +1,48 @@
+img {
+    width: 50%;
+    height: auto;
+}
+
+button.bw {
+    background-color: black;
+    color: white;
+    height: 40px;
+}
+
+button.by {
+    background-color: yellow;
+    color: black;
+    height: 40px;
+}
+
+button.yb {
+    background-color: black;
+    color: yellow;
+    height: 40px;
+}
+
+button.wb {
+    background-color: white;
+    color: black;
+    height: 40px;
+}
+
+/* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+
+#map {
+    height: 700px;
+    width: 1000px;
+    margin: auto;
+}
+
+#places, #buttons, #page-description {
+    text-align: center;
+}
+
+#page-description {
+    width: 1000px;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
