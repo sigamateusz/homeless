@@ -11,4 +11,4 @@ Nie należy nic robić poza samym uruchomieniem aplikacji, która przy rozruchu 
 
 
 ## Korzystanie z aplikacji  
-W celu korzystania z aplikacji należy wpisać w przeglądarkę internetową adres: [http://localhost:8080/](http://localhost:8080/)# homeless
+W celu korzystania z aplikacji należy wpisać w przeglądarkę internetową adres: [http://localhost:8080/](http://localhost:8080/)
