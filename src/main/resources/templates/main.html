@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html xmlns:th="http://www.thymeleaf.org">
+<html xmlns:th="http://www.thymeleaf.org"  lang="pl-PL">
 <head>
     <meta charset="UTF-8">
     <title>Ludzie bezdomni</title>
@@ -9,16 +9,13 @@
     <link href="https://unpkg.com/gijgo@1.9.13/css/gijgo.min.css" rel="stylesheet" type="text/css" />
     <link th:rel="stylesheet" th:href="@{/webjars/bootstrap/4.0.0-2/css/bootstrap.min.css} "/>
     <link th:href="@{/styles/main.css}" rel="stylesheet" />
-    <link th:href="@{/styles/map.css}" rel="stylesheet" />
 </head>
 <body class="bg-light">
-    <div th:replace="headers :: needy-person"></div>
+    <div th:replace="headers :: main"></div>
 
     <script th:src="@{/webjars/jquery/3.0.0/jquery.min.js}"></script>
     <script th:src="@{/webjars/popper.js/1.12.9-1/umd/popper.min.js}"></script>
     <script th:src="@{/webjars/bootstrap/4.0.0-2/js/bootstrap.min.js}"></script>
     <script type="text/javascript" th:src="@{/js/main.js}"></script>
-    <div th:replace="map :: map-needy-person"></div>
-
 </body>
 </html>
