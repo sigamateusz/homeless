@@ -121,21 +121,12 @@ function initMapDonor() {
                 });
 
             map.addListener("click", (mapsMouseEvent) => {
-                // Close the current InfoWindow.
                 infoWindow.close();
-                // Create a new InfoWindow.
                 let latLng = mapsMouseEvent.latLng.toJSON();
 
-                infoWindow = new google.maps.InfoWindow({
-                    position: mapsMouseEvent.latLng,
-                });
-                infoWindow.setContent(
-                    JSON.stringify(latLng, null, 2)
-                );
-                infoWindow.open(map);
+                document.getElementById('lat').value = latLng.lat;
+                document.getElementById('lng').value = latLng.lng;
             });
-
-
         });
     } else {
         console.log('brak dostępu do lokalizacji');
