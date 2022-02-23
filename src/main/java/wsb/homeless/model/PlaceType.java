@@ -1,7 +1,6 @@
 package wsb.homeless.model;
 
 import com.fasterxml.jackson.annotation.JsonValue;
-import lombok.Getter;
 
 public enum PlaceType {
     RESTAURANT("restauracja"),

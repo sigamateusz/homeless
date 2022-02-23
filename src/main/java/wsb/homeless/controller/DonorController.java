@@ -1,7 +1,6 @@
 package wsb.homeless.controller;
 
 import lombok.AllArgsConstructor;
-import lombok.Getter;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -34,7 +33,8 @@ public class DonorController {
     }
 
     @GetMapping(value = "/all", produces = "application/json")
-    public @ResponseBody List<DonorPlaceDTO> getAll() {
+    public @ResponseBody
+    List<DonorPlaceDTO> getAll() {
         return donorPlaceService.getAll();
     }
 }
