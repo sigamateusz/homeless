@@ -1,11 +1,12 @@
 package wsb.homeless.service;
 
-import org.springframework.stereotype.Service;
-import wsb.homeless.model.DonorPlace;
+import wsb.homeless.model.DonorPlaceDTO;
 
-@Service
-public class DonorPlaceService {
-    public void add(DonorPlace donorPlace) {
-        // todo: implement
-    }
+import java.util.List;
+
+public interface DonorPlaceService {
+
+    void add(DonorPlaceDTO donorPlaceDTO);
+
+    List<DonorPlaceDTO> getAll();
 }
