@@ -8,7 +8,4 @@ create table if not exists donor_place
     type varchar
 );
 
--- drop table address;
--- drop table person;
--- drop table reservation;
 -- drop table donor_place;
